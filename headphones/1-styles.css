@@ -145,7 +145,18 @@ main{
     margin-bottom: 40px;
 }
 
-.second-section-img {
+.media-card{
     height: 190px;
     width: 190px;
+    position: relative;
+}
+
+.second-section-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.media-text{
+    position: absolute;
+    top: 20%;
 }
