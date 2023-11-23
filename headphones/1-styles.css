@@ -176,12 +176,42 @@ main{
     padding: 0 10em;
 }
 
+.contact-box h1 {
+    margin-bottom: 50px;
+}
+.contact-box button {
+    margin-top: 10px;
+}
+
 .contact-box {
-    
+    max-width: 340px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.contact-box input {
+    width: 100%;
+    border: none;
+    height: 20px;
+    margin: 5px 0;
+}
+
+.contact-box textarea{
+    width: 100%;
+    resize: none;
+    border: none;
 }
 
 form{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.retangle {
+    width: 335px;
+    height: 1px;
+    opacity: 0.1745;
+    background: #071629;
+    margin-bottom: 50px;
 }
