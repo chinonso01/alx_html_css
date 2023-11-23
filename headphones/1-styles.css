@@ -63,6 +63,11 @@ nav {
     margin: 20em auto 0;
 }
 
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
 p {
     font-size: 16px;
     font-weight: 400;
@@ -70,7 +75,7 @@ p {
 }
 
 .header-content p{
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 button{
@@ -90,3 +95,26 @@ button{
 
 /**====================================== MAIN SECTIOM ==================================**/
 
+main{
+    padding: 6em 10em 2em 10em;
+    height: 800px;
+    text-align: center;
+}
+
+.first-section{
+    color: #071629;
+}
+
+.section-write-up {
+    width: 637px;
+    margin: 0 auto 80px auto;
+}
+
+.section-write-up h1{
+    margin-bottom: 40px;
+}
+
+.section-media {
+    display: flex;
+    justify-content: space-between;
+}
