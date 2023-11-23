@@ -52,7 +52,7 @@ nav {
 }
 .nav-list a:hover,
 .nav-list a:active {
-    color: #FF6565;
+    color: var(--color-01);
 }
 
 .header-content {
@@ -79,7 +79,7 @@ p {
 }
 
 button{
-    background-color: #FF6565;
+    background-color: var(--color-01);
     color: #fff;
     border-radius: 22px;
     border: none;
@@ -91,18 +91,30 @@ button{
     font-weight: 700;
     margin: 3em 0;
 }
+button:hover,
+button:active{
+    opacity: 0.9;
+}
 
 
 /**====================================== MAIN SECTIOM ==================================**/
 
 main{
-    padding: 6em 10em 2em 10em;
-    height: 800px;
     text-align: center;
 }
 
+/**First Section**/
+
 .first-section{
-    color: #071629;
+    color: var(--color-02);
+    margin: 7.5em 0;
+    padding: 0 10em;
+}
+
+.first-section-img{
+    height: 58px;
+    width: 52px;
+    margin-bottom: 20px;
 }
 
 .section-write-up {
@@ -117,4 +129,23 @@ main{
 .section-media {
     display: flex;
     justify-content: space-between;
+}
+
+/**Second Section**/
+
+.second-section {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7.5em 10em;
+    color: #fff;
+}
+
+.second-section h1{
+    margin-bottom: 40px;
+}
+
+.second-section-img {
+    height: 190px;
+    width: 190px;
 }
