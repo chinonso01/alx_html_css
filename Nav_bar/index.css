@@ -4,17 +4,22 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     --color-01: #fff;
     --color-02: #181818;
 }
 
 .nav-bar{
     background-color: var(--color-02);
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.nav-bar img {
+    height: 32px;
 }
 
 .nav-bar ul {
@@ -30,4 +35,37 @@ body {
 .nav-bar ul li a{
     text-decoration: none;
     color: var(--color-01);
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.nav-bar ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: var(--color-01);
+    transition: 0.15s ease-in-out;
+}
+
+.nav-bar ul li a:hover:after {
+    width: 100%;
+}
+
+.open-menu, .close-menu {
+    position: absolute;
+    color: var(--color-01);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
 }
