@@ -11,7 +11,6 @@ body {
     font-family: 'Source Sans 3', sans-serif;
 }
 
-
 /**====================================== HEADERS SECTION ==================================**/
 
 header {
@@ -215,3 +214,43 @@ form{
     background: #071629;
     margin-bottom: 50px;
 }
+
+
+
+/**====================================== FOOTER ==================================**/
+
+footer {
+    background-color: var(--color-02);
+    padding: 7em 10em 10px 10em;
+    text-align: center;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-box {
+    display: flex;
+}
+
+.icon-box i {
+    margin: 5px;
+    color: #fff;
+    font-size: 24px;
+}
+footer img {
+    width: 161px;
+    height: 32px;
+}
+
+footer p {
+    margin: 40px 0 10px 0;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.3517;
+}
+
+/*==============MEDIA QUERY============================*/
+
