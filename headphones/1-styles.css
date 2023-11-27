@@ -6,6 +6,7 @@
 body {
     --color-01: #FF6565;
     --color-02: #071629;
+    --heading-01: 32px;
     font-size: 14px;
     font-weight: 700;
     font-family: 'Source Sans 3', sans-serif;
@@ -63,7 +64,7 @@ nav {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: var(--heading-01);
     font-weight: 700;
 }
 
@@ -122,7 +123,7 @@ main{
 }
 
 .section-write-up h1{
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .section-media {
