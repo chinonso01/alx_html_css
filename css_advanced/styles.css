@@ -2,3 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1055px;
+}
+
+/*===========FISRT-SECTION============*/
+.first-section{
+    background-color: #C271FF;
+}
+
+
+
+/*===========THIRD-SECTION============*/
+.third-section{
+    background-color: #071629;
+}
