@@ -3,20 +3,159 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(52, 152, 219, 0.7);
+}
+
+h1 {
+    color: #fff;
+    font-size: 120px;
+    font-weight: 700;
+    margin: 100px 0 0 0;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+
+span {
+    font-weight: 700;
+    color: #C271FF
+}
+
+button {
+    background-color: #C271FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    margin: 3em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+    background-color: rgba(52, 152, 219, 0.7);
+}
+
+/*===========HEADER-SECTION============*/
 header {
     background-image: url(images/Object.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 1055px;
+    padding: 2em 8em;
+    text-align: center;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-box img {
+    width: 167px;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+.nav-list li{
+    margin: 0 1.5em;
+}
+
+.sub-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: -10px auto 0 auto;
+}
+
+.sub-nav a {
+    font-size: 14px;
+}
+
+.header-h2 {
+    margin: 5em 0 2.5em 0;
+}
+
+.profile-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pros {
+    width: fit-content;
+    color: #fff;
+}
+.pros-imag {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.pros-write-up {
+    width: 150px;
+}
+.pros-write-up p {
+    font-size: 13px;
+    font-weight: 400;
 }
 
 /*===========FISRT-SECTION============*/
 .first-section{
     background-color: #C271FF;
+    padding: 6em 12em;
+}
+
+.single-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+.single-profile img{
+    margin-right: 3em;
 }
 
 
+
+/*===========SECOND-SECTION============*/
+.second-section {
+    text-align: center;
+}
+.second-section h2{
+    color: #071629;
+}
+
+.media-box {
+    width: 200px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.media-box img {
+    width: 200px;
+}
+
+.media-box .like-profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
 
 /*===========THIRD-SECTION============*/
 .third-section{
