@@ -153,6 +153,15 @@ header {
     align-items: center;
     flex-wrap: wrap;
     margin: 0 10px;
+    position: relative;
+}
+
+.play {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
 }
 .media-box img {
     width: 200px;
@@ -211,4 +220,71 @@ header {
 
 .forth-section {
     color: #071629;
+    text-align: center;
+    padding: 6em 8em 4em;
+}
+.forth-section h2{
+    color: #071629;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+.question-contanier {
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    margin: 0 auto;
+}
+.question-box {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 6em;
+}
+.forth-section-box {
+    width: fit-content;
+    margin: 0 auto;
+}
+.question-box h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.question-box p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/*===========FOOTER============*/
+footer {
+    background-color: #071629;
+    padding: 6em 8em 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-box {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-top: 5em;
+    font-size: 12px;
+    font-weight: 400;
 }
